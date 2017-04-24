@@ -4,7 +4,7 @@ class ApplicationController
     request = Rack::Request.new(env)
     response = Rack::Response.new
     if request.path == '/'
-      response.write 'HELLO_WORLD'
+      response.write '<h1>Hello World</h1><p>Some more info about our site...</p>'
     elsif request.path == '/books'
       response.write 'Books Page'
     else
