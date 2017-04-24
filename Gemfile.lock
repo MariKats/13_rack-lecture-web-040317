@@ -47,6 +47,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   pry
+  rack
   rake
   require_all
   sinatra-activerecord
